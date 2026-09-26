@@ -1,0 +1,25 @@
+{
+    "name": "GameCraftLab.UnifiedInventorySystem.Samples.BasicDemo",
+    "rootNamespace": "GameCraftLab.UnifiedInventorySystem.Samples",
+    "references": [
+        "GameCraftLab.UnifiedInventorySystem",
+        "GameCraftLab.UnifiedInventorySystem.UI",
+        "UnityEngine.UI",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.0.0",
+            "define": "GCL_INPUT_SYSTEM"
+        }
+    ],
+    "noEngineReferences": false
+}

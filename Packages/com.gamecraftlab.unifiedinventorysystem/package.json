@@ -1,20 +1,34 @@
 {
 	"name": "com.gamecraftlab.unifiedinventorysystem",
-	"displayName":"Unified Inventory System",
+	"displayName": "Unified Inventory System",
 	"version": "0.1.0",
 	"unity": "6000.6",
 	"unityRelease": "0f1",
-	"description": "Replace this with your own description of the package. \n\nFor best results, use this text to summarize: \n\u25AA What the package does \n\u25AA How it can benefit the user \n\nNote: Special formatting characters are supported, including line breaks ('\\n') and bullets ('\\u25AA').",
+	"description": "One grid inventory engine for every style: one-cell-per-item (Skyrim-like), rectangular multi-cell items with rotation (Resident Evil 4), and irregular items in irregular containers with cell states such as damage (Dredge).\n\n▪ Pure C# core (InventoryGrid, CellShape, InventorySystem) — fully unit-tested, no MonoBehaviour required\n▪ Pluggable placement rules (IPlacementValidator, CellStateManager + strategies)\n▪ Stacking, auto-placement, transfers between containers\n▪ JSON save/load with an item database\n▪ uGUI views with mouse drag & drop and gamepad cursor\n▪ Editor tools: shape painter, container painter, database builder, CSV/JSON importer",
+	"keywords": [
+		"inventory",
+		"grid",
+		"tetris",
+		"rpg",
+		"survival",
+		"ui"
+	],
 	"dependencies": {
+		"com.unity.ugui": "2.0.0",
 		"com.unity.test-framework": "1.6.0"
 	},
 	"author": {
 		"name": "Arash",
-		"url": "http://www.example.com",
-		"email": "example@email.com"
+		"url": "https://github.com/codesbygom"
 	},
-	"changelogUrl": "https://example.com/changelog.html",
-	"documentationUrl": "https://example.com/",
-	"licensesUrl": "https://example.com/licensing.html",
+	"changelogUrl": "https://github.com/codesbygom/Unified-Inventory-Framework/blob/main/Packages/com.gamecraftlab.unifiedinventorysystem/CHANGELOG.md",
+	"documentationUrl": "https://github.com/codesbygom/Unified-Inventory-Framework/blob/main/Packages/com.gamecraftlab.unifiedinventorysystem/README.md",
+	"samples": [
+		{
+			"displayName": "Basic Demo",
+			"description": "Basic, RE4-style and Dredge-style inventories side by side, built entirely from code. Add BasicDemo to an empty scene and press Play.",
+			"path": "Samples~/BasicDemo"
+		}
+	],
 	"hideInEditor": false
 }

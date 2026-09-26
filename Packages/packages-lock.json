@@ -5,6 +5,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
+        "com.unity.ugui": "2.0.0",
         "com.unity.test-framework": "1.6.0"
       }
     },
