@@ -1,0 +1,10 @@
+{
+    "name": "Amgn76.UnifiedInventorySystem.Editor",
+    "references": [
+      "Amgn76.UnifiedInventorySystem"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

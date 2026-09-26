@@ -1,0 +1,14 @@
+{
+    "name": "Amgn76.UnifiedInventorySystem.Editor.Tests",
+    "references": [
+        "Amgn76.UnifiedInventorySystem.Editor",
+        "Amgn76.UnifiedInventorySystem"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

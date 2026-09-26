@@ -1,0 +1,11 @@
+{
+    "name": "Amgn76.UnifiedInventorySystem.Tests",
+    "references": [
+        "Amgn76.UnifiedInventorySystem"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}
